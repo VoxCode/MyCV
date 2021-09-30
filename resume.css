@@ -82,7 +82,6 @@ header {
     min-height: 140px;
     border: 1px solid #ddd;
     border-radius: 4px;
-
 }
 
 .contact {
@@ -211,14 +210,21 @@ footer > p {
 
     section {
         flex-direction: column;
+        padding: 30px 0;
     }
 
     header {
         flex-direction: column;
+        padding: 30px 0;
     }
 
     .photo {
         width: 60%;
+    }
+
+    .insert {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .h-c-1 {
@@ -240,5 +246,4 @@ footer > p {
     .s-c-2 {
         width: 100%;
     }
-
 }
